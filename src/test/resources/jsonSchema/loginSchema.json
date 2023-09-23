@@ -1,0 +1,40 @@
+{
+	"definitions": {},
+	"$schema": "http://json-schema.org/draft-07/schema#", 
+	"$id": "https://example.com/object1695305654.json", 
+	"title": "Root", 
+	"type": "array",
+	"default": [],
+	"items":{
+		"$id": "#root/items", 
+		"title": "Items", 
+		"type": "object",
+		"required": [
+			"token",
+			"userid"
+		],
+		"properties": {
+			"token": {
+				"$id": "#root/items/token", 
+				"title": "Token", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"HzBypDobI96MS1TlzfRdEw1dGENiRthcTjkrIRz52hSk2xnfigNobCMa72B7SsmOnSpLlq76bUrNwKhDi7azbvGkqOmOwWNG1q5w"
+				],
+				"pattern": "^.*$"
+			},
+			"userid": {
+				"$id": "#root/items/userid", 
+				"title": "Userid", 
+				"type": "string",
+				"default": "",
+				"examples": [
+					"g6onG7gbMbu9Egm8xvtO"
+				],
+				"pattern": "^.*$"
+			}
+		}
+	}
+
+}
